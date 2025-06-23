@@ -1,0 +1,15 @@
+/*-----------------------Class(button)------------------*/
+
+.button{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: rgb(192, 36, 36);
+    color: white;
+}
