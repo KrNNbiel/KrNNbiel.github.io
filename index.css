@@ -6,6 +6,7 @@ body{
 img{
     width: 40px;
     margin: 10px;
+    
 }
 
 header{
@@ -20,4 +21,17 @@ header{
 h1{
     margin-bottom: 10px;
     margin-top: 0px;
+}
+
+#skill1{
+    display: block;
+    width: 100px;
+}
+
+#skill2{
+    margin-left: 100px;
+}
+
+#skill2 h2{
+    margin-top: 120px;
 }

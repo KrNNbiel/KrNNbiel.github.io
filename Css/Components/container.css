@@ -1,0 +1,15 @@
+/*-----------------------Class(container)------------------*/
+
+.container{
+    height: 1200px;
+    border-bottom: 10px solid #000;
+}   
+
+.container h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 4px 3px #000;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
