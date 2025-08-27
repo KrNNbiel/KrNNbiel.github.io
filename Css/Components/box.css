@@ -9,3 +9,7 @@
     box-shadow: 7px 6px white;
     text-shadow: 3px 3px #000;
 }
+
+.box .title{
+    margin-bottom: 10px;
+}

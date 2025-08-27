@@ -12,16 +12,16 @@
         <link rel="stylesheet" href="Css/Components/title.css">
         <link rel="stylesheet" href="Css/Components/banner.css">
         <link rel="stylesheet" href="Css/Components/container.css">
-        <link rel="stylesheet" href="Css/Components/skills.css">
-        <link rel="stylesheet" href="Css/Components/imageskill.css">
         <link rel="stylesheet" href="Css/Components/bar.css">
-        <link rel="stylesheet" href="Css/Components/skils.css">
-        <link rel="stylesheet" href="Css/Components/skilss.css">
+        <link rel="stylesheet" href="Css/Components/skill.css">
+        <link rel="stylesheet" href="Css/Components/icon.css">
+        <link rel="stylesheet" href="Css/Components/skill-position.css">
+
 
     </head>
     <body>
         <header>
-            <img src="Assets/cc.png" alt="Logo">
+            <img id="logo" src="Assets/cc.png" alt="Logo">
             
             <nav>
                 <a class="action" lang="en" href="">Skills</a>
@@ -46,77 +46,81 @@
             </div>
         </section>
         <section class="container">
-            <h1>Skills</h1>
-            <div class="skills">
-                <div id="skill1">
-                    <div class="skilss">
-                        <img class="imageskill" src="Assets/HTML5_Badge_512.png" alt="HTML image">
-                        <div class="skils">
-                            <h2 class="subtitle">HTML</h2>
-                            <div class="bar"></div>
-                        </div>    
-                    </div>
-                    
-                    <div class="skilss">
-                        <img class="imageskill" src="Assets/CSS_logo.svg" alt="CSS image">    
-                        <div class="skils">
-                            <h2 class="subtitle">CSS</h2>
-                            <div class="bar"></div>
-                        </div> 
-                    </div>
-                    
-                    <div class="skilss">
-                        <img class="imageskill" src="Assets/Unofficial_JavaScript_logo_2.svg.png" alt="JAVAS image">
-                        <div class="skils">
-                            <h2 class="subtitle">JAVA SCRIPT</h2>
-                            <div class="bar"></div> 
-                        </div>   
-                    </div>
-                    
-                    <div class="skilss">
-                        <img class="imageskill" src="Assets/java_logo_icon_169577.png" alt="JAVA image">
-                        <div class="skils">
-                            <h2 class="subtitle">JAVA</h2>
-                            <div class="bar"></div>
-                        </div>
-                    </div>
+            <h1 id="titulo">Skills</h1>
+            <div class="skill-position">
+                <article class="skill -space">
+                    <img class="icon" src="Assets/HTML5_Badge_512.png" alt="html image">
+
+                    <div class="skill-components">
+                    <h2 class="subtitle">HTML</h2>
+                    <progress class="bar" max="100" value="70"></progress>
                 </div>
+                
+                </article>
+                <article class="skill">
+                    <img class="icon" src="Assets/CSS3_logo.svg" alt="css image">
                     
-                <div id="skill2">
-                    <div class="skilss">
-                        <img class="imageskill" src="Assets/Ruby_logo.svg.png" alt="RUBY image">
-                        <div class="skils">
-                            <h2 class="subtitle">RUBY</h2>
-                            <div class="bar"></div>
-                        </div>
+                    <div class="skill-components">
+                        <h2 class="subtitle">CSS</h2>
+                        <progress class="bar" max="100" value="70"></progress>
                     </div>
-
-                    <div class="skilss">
-                        <img class="imageskill" src="Assets/Python-logo-notext.svg.png" alt="Python image">
-                        <div class="skils">
-                            <h2 class="subtitle">PYTHON</h2>
-                            <div class="bar"></div>
-                        </div>
+                    
+                </article>
+                <article class="skill -space">
+                    <img class="icon" src="Assets/Unofficial_JavaScript_logo_2.svg.png" alt="java script image">
+                    
+                    <div class="skill-components">
+                        <h2 class="subtitle">JAVA SCRIPT</h2>
+                        <progress class="bar" max="100" value="70"></progress>
                     </div>
-
-                    <div class="skilss">
-                        <img class="imageskill" src="Assets/golang.png" alt="GO image">
-                        <div class="skils">
-                            <h2 class="subtitle">GO</h2>
-                            <div class="bar"></div>
-                        </div>
+                    
+                </article>
+                <article class="skill">
+                    <img class="icon" src="Assets/java_logo_icon_169577.png" alt="java image">
+                    
+                    <div class="skill-components">
+                        <h2 class="subtitle">JAVA</h2>
+                        <progress class="bar" max="100" value="70"></progress>
                     </div>
-
-                    <div class="skilss">
-                        <img class="imageskill" src="Assets/Rust_programming_language_black_logo.svg.png" alt="RUST image">
-                        <div class="skils">
-                            <h2 class="subtitle">RUST</h2>
-                            <div class="bar"></div>
-                        </div>
-                    </div>  
-                </div>
-
+                    
+                </article>
+                <article class="skill -space">
+                    <img class="icon" src="Assets/Ruby_logo.svg.png" alt="ruby image">
+                    
+                    <div class="skill-components">
+                        <h2 class="subtitle">RUBY</h2>
+                        <progress class="bar" max="100" value="70"></progress>
+                    </div>
+                    
+                </article>
+                <article class="skill">
+                    <img class="icon" src="Assets/Python-logo-notext.svg.png" alt="python image">
+                    
+                    <div class="skill-components">
+                        <h2 class="subtitle">PYTHON</h2>
+                        <progress class="bar" max="100" value="70"></progress>
+                    </div>
+                    
+                </article>
+                <article class="skill -space ">
+                    <img class="icon" src="Assets/golang.png" alt="go image">
+                    
+                    <div class="skill-components">
+                        <h2 class="subtitle">GO</h2>
+                        <progress class="bar" max="100" value="70"></progress>
+                    </div>
+                    
+                </article>
+                <article class="skill">
+                    <img class="icon" src="Assets/Rust_programming_language_black_logo.svg.png" alt="rust image">
+                    
+                    <div class="skill-components">
+                        <h2 class="subtitle">RUST</h2>
+                        <progress class="bar" max="100" value="70"></progress>
+                    </div>
+                    
+                </article>
             </div>
-        </section>
+        </section>  
     </body>
 </html>     

@@ -1,14 +1,15 @@
 /*-----------------------Class(container)------------------*/
 
 .container{
-    height: 1000px;
+    height: 700px;
     border-bottom: 10px solid #000;
+    background-color: #c02424;
 }   
 
 .container h1{
     font-size: 60px;
     color: white;
-    margin-top: 15px;
     display: flex;
     justify-content: center;
+    margin: 0px;
 }

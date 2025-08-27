@@ -1,0 +1,8 @@
+.skill{
+    display: flex;
+    margin-top: 49px;
+}
+
+.skill.-space{
+    margin-right: 100px;
+}

@@ -1,12 +1,5 @@
 body{
-    margin: 0;
-    background-color: rgb(192, 36, 36);
-}
-
-img{
-    width: 40px;
-    margin: 10px;
-    
+    margin: 0px;
 }
 
 header{
@@ -18,7 +11,15 @@ header{
     padding-right: 10px;
 }
 
-h1{
-    margin-bottom: 10px;
-    margin-top: 0px;
+#logo{
+    width: 40px;
+    margin: 10px;
+}
+
+#titulo{
+    padding-top: 20px;
+}
+
+#skill-positon{
+    display: flex;
 }
