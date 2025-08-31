@@ -2,7 +2,7 @@
 
 .container{
     height: 700px;
-    border-bottom: 10px solid #000;
+    border-bottom: 10px solid #7c5E99;
     background-color: #c02424;
 }   
 
@@ -12,4 +12,11 @@
     display: flex;
     justify-content: center;
     margin: 0px;
+    padding-top: 15px;
+}
+
+.container.-projetos{
+    height: 500px;
+    background-color: #000000;
+    border-color: #c02424;
 }
