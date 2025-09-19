@@ -3,20 +3,25 @@
     <head>
         <meta charset="UTF-8">
         <title>Portifólio Gabriel</title>
-
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="Css/Components/action.css">
-        <link rel="stylesheet" href="Css/Components/box.css">
-        <link rel="stylesheet" href="Css/Components/button.css">
-        <link rel="stylesheet" href="Css/Components/subtitle.css">
-        <link rel="stylesheet" href="Css/Components/title.css">
-        <link rel="stylesheet" href="Css/Components/banner.css">
-        <link rel="stylesheet" href="Css/Components/container.css">
-        <link rel="stylesheet" href="Css/Components/bar.css">
-        <link rel="stylesheet" href="Css/Components/skill.css">
-        <link rel="stylesheet" href="Css/Components/icon.css">
+        
+        <link rel="stylesheet" href="Css/Components/main-reset.css">
+        <link rel="stylesheet" href="Css/Components/main-logo.css">
+        <link rel="stylesheet" href="Css/Components/main-header.css">
+        <link rel="stylesheet" href="Css/Components/main-action.css">
+        <link rel="stylesheet" href="Css/Components/main-box.css">
+        <link rel="stylesheet" href="Css/Components/main-button.css">
+        <link rel="stylesheet" href="Css/Components/main-subtitle.css">
+        <link rel="stylesheet" href="Css/Components/main-title.css">
+        <link rel="stylesheet" href="Css/Components/main-banner.css">
+        <link rel="stylesheet" href="Css/Components/main-container.css">
+        <link rel="stylesheet" href="Css/Components/main-bar.css">
+        <link rel="stylesheet" href="Css/Components/main-skill.css">
+        <link rel="stylesheet" href="Css/Components/skill-icon.css">
         <link rel="stylesheet" href="Css/Components/skill-position.css">
-
+        <link rel="stylesheet" href="Css/Components/skill-component.css">
+        <link rel="stylesheet" href="Css/Components/projetos-position.css">
+        <link rel="stylesheet" href="Css/Components/section-sobre.css">
+        <link rel="stylesheet" href="Css/Components/text-sobre.css">
 
     </head>
     <body>
@@ -51,72 +56,72 @@
                 <article class="skill -space">
                     <img class="icon" src="Assets/HTML5_Badge_512.png" alt="html image">
 
-                    <div class="skill-components">
-                    <h2 class="subtitle">HTML</h2>
-                    <progress class="bar" max="100" value="70"></progress>
-                </div>
+                    <div class="skill-component">
+                        <h2 class="subtitle">HTML</h2>
+                        <progress class="bar" max="100" value="70"></progress>
+                    </div>
                 
                 </article>
                 <article class="skill">
                     <img class="icon" src="Assets/CSS3_logo.svg" alt="css image">
-                    
-                    <div class="skill-components">
+
+                    <div class="skill-component">
                         <h2 class="subtitle">CSS</h2>
-                        <progress class="bar" max="100" value="70"></progress>
+                        <progress class="bar" max="100" value="60"></progress>
                     </div>
                     
                 </article>
                 <article class="skill -space">
                     <img class="icon" src="Assets/Unofficial_JavaScript_logo_2.svg.png" alt="java script image">
-                    
-                    <div class="skill-components">
+
+                    <div class="skill-component">
                         <h2 class="subtitle">JAVA SCRIPT</h2>
-                        <progress class="bar" max="100" value="70"></progress>
+                        <progress class="bar" max="100" value="10"></progress>
                     </div>
                     
                 </article>
                 <article class="skill">
                     <img class="icon" src="Assets/java_logo_icon_169577.png" alt="java image">
-                    
-                    <div class="skill-components">
+
+                    <div class="skill-component">
                         <h2 class="subtitle">JAVA</h2>
-                        <progress class="bar" max="100" value="70"></progress>
+                        <progress class="bar" max="100" value="1"></progress>
                     </div>
                     
                 </article>
                 <article class="skill -space">
                     <img class="icon" src="Assets/Ruby_logo.svg.png" alt="ruby image">
-                    
-                    <div class="skill-components">
+
+                    <div class="skill-component">
                         <h2 class="subtitle">RUBY</h2>
-                        <progress class="bar" max="100" value="70"></progress>
+                        <progress class="bar" max="100" value="0"></progress>
                     </div>
                     
                 </article>
                 <article class="skill">
                     <img class="icon" src="Assets/Python-logo-notext.svg.png" alt="python image">
-                    
-                    <div class="skill-components">
+
+                    <div class="skill-component">
                         <h2 class="subtitle">PYTHON</h2>
-                        <progress class="bar" max="100" value="70"></progress>
+                        <progress class="bar" max="100" value="0"></progress>
                     </div>
                     
                 </article>
                 <article class="skill -space ">
                     <img class="icon" src="Assets/golang.png" alt="go image">
-                    
-                    <div class="skill-components">
+
+                    <div class="skill-component">
                         <h2 class="subtitle">GO</h2>
-                        <progress class="bar" max="100" value="70"></progress>
+                        <progress class="bar" max="100" value="0"></progress>
                     </div>
                     
                 </article>
                 <article class="skill">
                     <img class="icon" src="Assets/Rust_programming_language_black_logo.svg.png" alt="rust image">
-                    
-                    <div class="skill-components">
+
+                    <div class="skill-component">
                         <h2 class="subtitle">RUST</h2>
-                        <progress class="bar" max="100" value="70"></progress>
+                        <progress class="bar" max="100" value="0"></progress>
                     </div>
                     
                 </article>
@@ -124,11 +129,19 @@
         </section>
         <section class="container -projetos">
             <h1>Projetos</h1>
-            <article id="box-projetos">
-                <div class="box -projetos"></div>
-                <div class="box -projetos"></div>
-                <div class="box -projetos"></div>
+            <article id="projetos-position">
+                <a href="https://krnnbiel.github.io/" target="_blank"><figure class="box -projetos -a"><img src="Assets/cc.png" alt=""></figure></a>
+                <a href="https://github.com/KrNNbiel" target="_blank"><figure class="box -projetos -b"><img src="" alt=""></figure></a>
+                <a href="https://github.com/KrNNbiel" target="_blank"><figure class="box -projetos -c"><img src="" alt=""></figure></a>
             </article>
-        </section>  
+        </section>
+        <section class="container -sobre">
+            <h1>Sobre</h1>
+            <div class="text-sobre">
+                <p>Eu sou um estudante apaixonado por desenvolvimento web e software. Com habilidades
+                em HTML, CSS e JavaScript, estou sempre em busca de novos desafios e oportunidades para aprender e
+                crescer na área de tecnologia.</p>
+            </div>
+        </section>
     </body>
-</html>     
+</html>

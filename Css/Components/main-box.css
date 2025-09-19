@@ -15,6 +15,19 @@
 }
 
 .box.-projetos{
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
+    margin: 0px;
+}
+
+.box.-projetos.-a{
+    background-color: #7c5E99;
+}
+
+.box.-projetos.-b{
+    background-color: #c02424;   
+}
+
+.box.-projetos.-c{
+    background-color: #343434; 
 }

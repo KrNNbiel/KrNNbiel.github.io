@@ -20,3 +20,9 @@
     background-color: #000000;
     border-color: #c02424;
 }
+
+.container.-sobre {
+    height: 600px;
+    background-color: #7c5e99;
+    border-color: #000;
+}

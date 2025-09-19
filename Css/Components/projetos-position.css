@@ -1,0 +1,15 @@
+/*-----------------------ID(projetos)------------------*/
+
+#projetos-position{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#projetos-position img{
+    width: 100%;
+}
